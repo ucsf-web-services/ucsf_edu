@@ -16,6 +16,6 @@
 #npm-debug.log
 
 # Git deploy
-.publish
+#.publish
 
 .DS_Store
