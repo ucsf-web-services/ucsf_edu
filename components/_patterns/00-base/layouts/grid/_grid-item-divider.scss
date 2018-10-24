@@ -3,7 +3,7 @@
   flex-grow: 0;
 
   @include large {
-    margin-right: 3.5%;
+    margin-right: 5%;
     position: relative;
 
     &::after {
@@ -20,7 +20,7 @@
   // Columns
   @if $columns == 2 {
     &::after {
-      right: -3.5%;
+      right: -5.5%;
     }
 
     &:nth-child(2n) {
@@ -34,7 +34,7 @@
 
   @if $columns == 3 {
     &::after {
-      right: -5.5%;
+      right: -9%;
     }
 
     &:nth-child(3n) {

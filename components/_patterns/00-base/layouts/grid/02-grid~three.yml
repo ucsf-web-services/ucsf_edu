@@ -4,8 +4,6 @@ items:
   one:
   two:
   three:
-  four:
-  five:
 grid_modifiers:
   1:
     "pl"

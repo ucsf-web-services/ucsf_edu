@@ -6,8 +6,23 @@
 // components/_patterns/00-base/_breakpoints.scss
 
 // Fonts
-$font-body: Georgia, Times, "Times New Roman", serif;
-$font-heading: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-helvetica-neue-light: "HelveticaNeueLTW04-45Light";
+$font-helvetica-neue-roman: "HelveticaNeueLTW04-55Roman";
+$font-helvetica-neue-bold: "HelveticaNeueLTW06-75Bold";
+$font-granjon: "GranjonLTW01-Roman";
+
+$font-body: $font-helvetica-neue-light, "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-heading: $font-granjon, Garamond, "Times New Roman", serif;
+
+.helvetica-roman {
+  font-family: $font-helvetica-neue-roman;
+}
+.helvetica-bold {
+  font-family: $font-helvetica-neue-bold;
+}
+.granjon {
+  font-family: $font-granjon;
+}
 
 // Spacing
 $space: 1rem;
