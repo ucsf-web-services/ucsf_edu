@@ -1,4 +1,4 @@
-items:
+itemsprimary:
   - name: $navy
     value: '#052049'
   - name: $teal
